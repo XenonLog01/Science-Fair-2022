@@ -3,10 +3,6 @@ import sys
 
 num = 0
 
-# Every single char, a new seed is generated
-# This may be based on the ord of the last
-# char, or by some other method. 
-
 def gen_new_num(): 
   global num
   num = random.randint(32, 254)
